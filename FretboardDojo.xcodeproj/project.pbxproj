@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D89E0701A7ECE1600338A06 /* 2a#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0431A7ECE1600338A06 /* 2a#.aiff */; };
+		2D89E0711A7ECE1600338A06 /* 2g#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0441A7ECE1600338A06 /* 2g#.aiff */; };
+		2D89E0721A7ECE1600338A06 /* 2f#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0451A7ECE1600338A06 /* 2f#.aiff */; };
+		2D89E0731A7ECE1600338A06 /* 2b.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0461A7ECE1600338A06 /* 2b.aiff */; };
+		2D89E0741A7ECE1600338A06 /* 2a.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0471A7ECE1600338A06 /* 2a.aiff */; };
+		2D89E0751A7ECE1600338A06 /* 2g.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0481A7ECE1600338A06 /* 2g.aiff */; };
+		2D89E0761A7ECE1600338A06 /* 2f.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0491A7ECE1600338A06 /* 2f.aiff */; };
+		2D89E0771A7ECE1600338A06 /* 2e.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E04A1A7ECE1600338A06 /* 2e.aiff */; };
+		2D89E0781A7ECE1600338A06 /* 5a#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E04B1A7ECE1600338A06 /* 5a#.aiff */; };
+		2D89E0791A7ECE1600338A06 /* 5g#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E04C1A7ECE1600338A06 /* 5g#.aiff */; };
+		2D89E07A1A7ECE1600338A06 /* 5f#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E04D1A7ECE1600338A06 /* 5f#.aiff */; };
+		2D89E07B1A7ECE1600338A06 /* 5d#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E04E1A7ECE1600338A06 /* 5d#.aiff */; };
+		2D89E07C1A7ECE1600338A06 /* 5c#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E04F1A7ECE1600338A06 /* 5c#.aiff */; };
+		2D89E07D1A7ECE1600338A06 /* 4a#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0501A7ECE1600338A06 /* 4a#.aiff */; };
+		2D89E07E1A7ECE1600338A06 /* 4g#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0511A7ECE1600338A06 /* 4g#.aiff */; };
+		2D89E07F1A7ECE1600338A06 /* 4f#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0521A7ECE1600338A06 /* 4f#.aiff */; };
+		2D89E0801A7ECE1600338A06 /* 4d#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0531A7ECE1600338A06 /* 4d#.aiff */; };
+		2D89E0811A7ECE1600338A06 /* 4c#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0541A7ECE1600338A06 /* 4c#.aiff */; };
+		2D89E0821A7ECE1600338A06 /* 3a#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0551A7ECE1600338A06 /* 3a#.aiff */; };
+		2D89E0831A7ECE1600338A06 /* 3g#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0561A7ECE1600338A06 /* 3g#.aiff */; };
+		2D89E0841A7ECE1600338A06 /* 3f#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0571A7ECE1600338A06 /* 3f#.aiff */; };
+		2D89E0851A7ECE1600338A06 /* 3d#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0581A7ECE1600338A06 /* 3d#.aiff */; };
+		2D89E0861A7ECE1600338A06 /* 3c#.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0591A7ECE1600338A06 /* 3c#.aiff */; };
+		2D89E0871A7ECE1600338A06 /* 6c.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E05A1A7ECE1600338A06 /* 6c.aiff */; };
+		2D89E0881A7ECE1600338A06 /* 5b.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E05B1A7ECE1600338A06 /* 5b.aiff */; };
+		2D89E0891A7ECE1600338A06 /* 5a.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E05C1A7ECE1600338A06 /* 5a.aiff */; };
+		2D89E08A1A7ECE1600338A06 /* 5g.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E05D1A7ECE1600338A06 /* 5g.aiff */; };
+		2D89E08B1A7ECE1600338A06 /* 5f.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E05E1A7ECE1600338A06 /* 5f.aiff */; };
+		2D89E08C1A7ECE1600338A06 /* 5e.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E05F1A7ECE1600338A06 /* 5e.aiff */; };
+		2D89E08D1A7ECE1600338A06 /* 5d.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0601A7ECE1600338A06 /* 5d.aiff */; };
+		2D89E08E1A7ECE1600338A06 /* 5c.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0611A7ECE1600338A06 /* 5c.aiff */; };
+		2D89E08F1A7ECE1600338A06 /* 4b.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0621A7ECE1600338A06 /* 4b.aiff */; };
+		2D89E0901A7ECE1600338A06 /* 4a.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0631A7ECE1600338A06 /* 4a.aiff */; };
+		2D89E0911A7ECE1600338A06 /* 4g.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0641A7ECE1600338A06 /* 4g.aiff */; };
+		2D89E0921A7ECE1600338A06 /* 4f.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0651A7ECE1600338A06 /* 4f.aiff */; };
+		2D89E0931A7ECE1600338A06 /* 4e.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0661A7ECE1600338A06 /* 4e.aiff */; };
+		2D89E0941A7ECE1600338A06 /* 4d.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0671A7ECE1600338A06 /* 4d.aiff */; };
+		2D89E0951A7ECE1600338A06 /* 4c.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0681A7ECE1600338A06 /* 4c.aiff */; };
+		2D89E0961A7ECE1600338A06 /* 3b.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0691A7ECE1600338A06 /* 3b.aiff */; };
+		2D89E0971A7ECE1600338A06 /* 3a.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06A1A7ECE1600338A06 /* 3a.aiff */; };
+		2D89E0981A7ECE1600338A06 /* 3g.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06B1A7ECE1600338A06 /* 3g.aiff */; };
+		2D89E0991A7ECE1600338A06 /* 3f.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06C1A7ECE1600338A06 /* 3f.aiff */; };
+		2D89E09A1A7ECE1600338A06 /* 3e.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06D1A7ECE1600338A06 /* 3e.aiff */; };
+		2D89E09B1A7ECE1600338A06 /* 3d.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06E1A7ECE1600338A06 /* 3d.aiff */; };
+		2D89E09C1A7ECE1600338A06 /* 3c.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06F1A7ECE1600338A06 /* 3c.aiff */; };
+		2DA273B61A7C57DB0042A340 /* FretboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA273B51A7C57DB0042A340 /* FretboardViewController.m */; };
+		2DA273BA1A7CE5410042A340 /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA273B91A7CE5410042A340 /* Position.m */; };
+		2DA2740A1A7D97330042A340 /* Guitar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA274091A7D97330042A340 /* Guitar.m */; };
+		2DA2740C1A7D9A040042A340 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA2740B1A7D9A040042A340 /* AudioToolbox.framework */; };
+		2DFFEABA1A7B834100A833CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFEAB91A7B834100A833CC /* main.m */; };
+		2DFFEABD1A7B834100A833CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFEABC1A7B834100A833CC /* AppDelegate.m */; };
+		2DFFEAC01A7B834100A833CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFEABF1A7B834100A833CC /* ViewController.m */; };
+		2DFFEAC31A7B834100A833CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEAC11A7B834100A833CC /* Main.storyboard */; };
+		2DFFEAC51A7B834100A833CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEAC41A7B834100A833CC /* Images.xcassets */; };
+		2DFFEAC81A7B834100A833CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEAC61A7B834100A833CC /* LaunchScreen.xib */; };
+		2DFFEAD41A7B834100A833CC /* FretboardDojoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFEAD31A7B834100A833CC /* FretboardDojoTests.m */; };
+		2DFFEADF1A7B8E3A00A833CC /* FretboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFEADE1A7B8E3900A833CC /* FretboardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DFFEACE1A7B834100A833CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DFFEAAC1A7B834100A833CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DFFEAB31A7B834100A833CC;
+			remoteInfo = FretboardDojo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D89E0431A7ECE1600338A06 /* 2a#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "2a#.aiff"; sourceTree = "<group>"; };
+		2D89E0441A7ECE1600338A06 /* 2g#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "2g#.aiff"; sourceTree = "<group>"; };
+		2D89E0451A7ECE1600338A06 /* 2f#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "2f#.aiff"; sourceTree = "<group>"; };
+		2D89E0461A7ECE1600338A06 /* 2b.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 2b.aiff; sourceTree = "<group>"; };
+		2D89E0471A7ECE1600338A06 /* 2a.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 2a.aiff; sourceTree = "<group>"; };
+		2D89E0481A7ECE1600338A06 /* 2g.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 2g.aiff; sourceTree = "<group>"; };
+		2D89E0491A7ECE1600338A06 /* 2f.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 2f.aiff; sourceTree = "<group>"; };
+		2D89E04A1A7ECE1600338A06 /* 2e.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 2e.aiff; sourceTree = "<group>"; };
+		2D89E04B1A7ECE1600338A06 /* 5a#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "5a#.aiff"; sourceTree = "<group>"; };
+		2D89E04C1A7ECE1600338A06 /* 5g#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "5g#.aiff"; sourceTree = "<group>"; };
+		2D89E04D1A7ECE1600338A06 /* 5f#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "5f#.aiff"; sourceTree = "<group>"; };
+		2D89E04E1A7ECE1600338A06 /* 5d#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "5d#.aiff"; sourceTree = "<group>"; };
+		2D89E04F1A7ECE1600338A06 /* 5c#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "5c#.aiff"; sourceTree = "<group>"; };
+		2D89E0501A7ECE1600338A06 /* 4a#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "4a#.aiff"; sourceTree = "<group>"; };
+		2D89E0511A7ECE1600338A06 /* 4g#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "4g#.aiff"; sourceTree = "<group>"; };
+		2D89E0521A7ECE1600338A06 /* 4f#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "4f#.aiff"; sourceTree = "<group>"; };
+		2D89E0531A7ECE1600338A06 /* 4d#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "4d#.aiff"; sourceTree = "<group>"; };
+		2D89E0541A7ECE1600338A06 /* 4c#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "4c#.aiff"; sourceTree = "<group>"; };
+		2D89E0551A7ECE1600338A06 /* 3a#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "3a#.aiff"; sourceTree = "<group>"; };
+		2D89E0561A7ECE1600338A06 /* 3g#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "3g#.aiff"; sourceTree = "<group>"; };
+		2D89E0571A7ECE1600338A06 /* 3f#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "3f#.aiff"; sourceTree = "<group>"; };
+		2D89E0581A7ECE1600338A06 /* 3d#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "3d#.aiff"; sourceTree = "<group>"; };
+		2D89E0591A7ECE1600338A06 /* 3c#.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "3c#.aiff"; sourceTree = "<group>"; };
+		2D89E05A1A7ECE1600338A06 /* 6c.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 6c.aiff; sourceTree = "<group>"; };
+		2D89E05B1A7ECE1600338A06 /* 5b.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 5b.aiff; sourceTree = "<group>"; };
+		2D89E05C1A7ECE1600338A06 /* 5a.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 5a.aiff; sourceTree = "<group>"; };
+		2D89E05D1A7ECE1600338A06 /* 5g.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 5g.aiff; sourceTree = "<group>"; };
+		2D89E05E1A7ECE1600338A06 /* 5f.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 5f.aiff; sourceTree = "<group>"; };
+		2D89E05F1A7ECE1600338A06 /* 5e.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 5e.aiff; sourceTree = "<group>"; };
+		2D89E0601A7ECE1600338A06 /* 5d.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 5d.aiff; sourceTree = "<group>"; };
+		2D89E0611A7ECE1600338A06 /* 5c.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 5c.aiff; sourceTree = "<group>"; };
+		2D89E0621A7ECE1600338A06 /* 4b.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 4b.aiff; sourceTree = "<group>"; };
+		2D89E0631A7ECE1600338A06 /* 4a.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 4a.aiff; sourceTree = "<group>"; };
+		2D89E0641A7ECE1600338A06 /* 4g.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 4g.aiff; sourceTree = "<group>"; };
+		2D89E0651A7ECE1600338A06 /* 4f.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 4f.aiff; sourceTree = "<group>"; };
+		2D89E0661A7ECE1600338A06 /* 4e.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 4e.aiff; sourceTree = "<group>"; };
+		2D89E0671A7ECE1600338A06 /* 4d.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 4d.aiff; sourceTree = "<group>"; };
+		2D89E0681A7ECE1600338A06 /* 4c.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 4c.aiff; sourceTree = "<group>"; };
+		2D89E0691A7ECE1600338A06 /* 3b.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3b.aiff; sourceTree = "<group>"; };
+		2D89E06A1A7ECE1600338A06 /* 3a.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3a.aiff; sourceTree = "<group>"; };
+		2D89E06B1A7ECE1600338A06 /* 3g.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3g.aiff; sourceTree = "<group>"; };
+		2D89E06C1A7ECE1600338A06 /* 3f.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3f.aiff; sourceTree = "<group>"; };
+		2D89E06D1A7ECE1600338A06 /* 3e.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3e.aiff; sourceTree = "<group>"; };
+		2D89E06E1A7ECE1600338A06 /* 3d.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3d.aiff; sourceTree = "<group>"; };
+		2D89E06F1A7ECE1600338A06 /* 3c.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3c.aiff; sourceTree = "<group>"; };
+		2DA273B41A7C57DB0042A340 /* FretboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FretboardViewController.h; path = ../FretboardViewController.h; sourceTree = "<group>"; };
+		2DA273B51A7C57DB0042A340 /* FretboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FretboardViewController.m; path = ../FretboardViewController.m; sourceTree = "<group>"; };
+		2DA273B81A7CE5410042A340 /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Position.h; path = ../Position.h; sourceTree = "<group>"; };
+		2DA273B91A7CE5410042A340 /* Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Position.m; path = ../Position.m; sourceTree = "<group>"; };
+		2DA274081A7D97330042A340 /* Guitar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Guitar.h; path = ../Guitar.h; sourceTree = "<group>"; };
+		2DA274091A7D97330042A340 /* Guitar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Guitar.m; path = ../Guitar.m; sourceTree = "<group>"; };
+		2DA2740B1A7D9A040042A340 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2DFFEAB41A7B834100A833CC /* FretboardDojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretboardDojo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFFEAB81A7B834100A833CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFFEAB91A7B834100A833CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DFFEABB1A7B834100A833CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DFFEABC1A7B834100A833CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DFFEABE1A7B834100A833CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DFFEABF1A7B834100A833CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DFFEAC21A7B834100A833CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DFFEAC41A7B834100A833CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DFFEAC71A7B834100A833CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2DFFEACD1A7B834100A833CC /* FretboardDojoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FretboardDojoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFFEAD21A7B834100A833CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFFEAD31A7B834100A833CC /* FretboardDojoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FretboardDojoTests.m; sourceTree = "<group>"; };
+		2DFFEADD1A7B8E3900A833CC /* FretboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretboardView.h; sourceTree = "<group>"; };
+		2DFFEADE1A7B8E3900A833CC /* FretboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretboardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DFFEAB11A7B834100A833CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA2740C1A7D9A040042A340 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFEACA1A7B834100A833CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA273BD1A7D96AB0042A340 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2D89E0431A7ECE1600338A06 /* 2a#.aiff */,
+				2D89E0441A7ECE1600338A06 /* 2g#.aiff */,
+				2D89E0451A7ECE1600338A06 /* 2f#.aiff */,
+				2D89E0461A7ECE1600338A06 /* 2b.aiff */,
+				2D89E0471A7ECE1600338A06 /* 2a.aiff */,
+				2D89E0481A7ECE1600338A06 /* 2g.aiff */,
+				2D89E0491A7ECE1600338A06 /* 2f.aiff */,
+				2D89E04A1A7ECE1600338A06 /* 2e.aiff */,
+				2D89E04B1A7ECE1600338A06 /* 5a#.aiff */,
+				2D89E04C1A7ECE1600338A06 /* 5g#.aiff */,
+				2D89E04D1A7ECE1600338A06 /* 5f#.aiff */,
+				2D89E04E1A7ECE1600338A06 /* 5d#.aiff */,
+				2D89E04F1A7ECE1600338A06 /* 5c#.aiff */,
+				2D89E0501A7ECE1600338A06 /* 4a#.aiff */,
+				2D89E0511A7ECE1600338A06 /* 4g#.aiff */,
+				2D89E0521A7ECE1600338A06 /* 4f#.aiff */,
+				2D89E0531A7ECE1600338A06 /* 4d#.aiff */,
+				2D89E0541A7ECE1600338A06 /* 4c#.aiff */,
+				2D89E0551A7ECE1600338A06 /* 3a#.aiff */,
+				2D89E0561A7ECE1600338A06 /* 3g#.aiff */,
+				2D89E0571A7ECE1600338A06 /* 3f#.aiff */,
+				2D89E0581A7ECE1600338A06 /* 3d#.aiff */,
+				2D89E0591A7ECE1600338A06 /* 3c#.aiff */,
+				2D89E05A1A7ECE1600338A06 /* 6c.aiff */,
+				2D89E05B1A7ECE1600338A06 /* 5b.aiff */,
+				2D89E05C1A7ECE1600338A06 /* 5a.aiff */,
+				2D89E05D1A7ECE1600338A06 /* 5g.aiff */,
+				2D89E05E1A7ECE1600338A06 /* 5f.aiff */,
+				2D89E05F1A7ECE1600338A06 /* 5e.aiff */,
+				2D89E0601A7ECE1600338A06 /* 5d.aiff */,
+				2D89E0611A7ECE1600338A06 /* 5c.aiff */,
+				2D89E0621A7ECE1600338A06 /* 4b.aiff */,
+				2D89E0631A7ECE1600338A06 /* 4a.aiff */,
+				2D89E0641A7ECE1600338A06 /* 4g.aiff */,
+				2D89E0651A7ECE1600338A06 /* 4f.aiff */,
+				2D89E0661A7ECE1600338A06 /* 4e.aiff */,
+				2D89E0671A7ECE1600338A06 /* 4d.aiff */,
+				2D89E0681A7ECE1600338A06 /* 4c.aiff */,
+				2D89E0691A7ECE1600338A06 /* 3b.aiff */,
+				2D89E06A1A7ECE1600338A06 /* 3a.aiff */,
+				2D89E06B1A7ECE1600338A06 /* 3g.aiff */,
+				2D89E06C1A7ECE1600338A06 /* 3f.aiff */,
+				2D89E06D1A7ECE1600338A06 /* 3e.aiff */,
+				2D89E06E1A7ECE1600338A06 /* 3d.aiff */,
+				2D89E06F1A7ECE1600338A06 /* 3c.aiff */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		2DFFEAAB1A7B834100A833CC = {
+			isa = PBXGroup;
+			children = (
+				2DA2740B1A7D9A040042A340 /* AudioToolbox.framework */,
+				2DFFEAB61A7B834100A833CC /* FretboardDojo */,
+				2DFFEAD01A7B834100A833CC /* FretboardDojoTests */,
+				2DFFEAB51A7B834100A833CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DFFEAB51A7B834100A833CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFEAB41A7B834100A833CC /* FretboardDojo.app */,
+				2DFFEACD1A7B834100A833CC /* FretboardDojoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DFFEAB61A7B834100A833CC /* FretboardDojo */ = {
+			isa = PBXGroup;
+			children = (
+				2DA274081A7D97330042A340 /* Guitar.h */,
+				2DA274091A7D97330042A340 /* Guitar.m */,
+				2DA273BD1A7D96AB0042A340 /* Sounds */,
+				2DA273B81A7CE5410042A340 /* Position.h */,
+				2DA273B91A7CE5410042A340 /* Position.m */,
+				2DA273B41A7C57DB0042A340 /* FretboardViewController.h */,
+				2DA273B51A7C57DB0042A340 /* FretboardViewController.m */,
+				2DFFEABB1A7B834100A833CC /* AppDelegate.h */,
+				2DFFEABC1A7B834100A833CC /* AppDelegate.m */,
+				2DFFEABE1A7B834100A833CC /* ViewController.h */,
+				2DFFEADD1A7B8E3900A833CC /* FretboardView.h */,
+				2DFFEADE1A7B8E3900A833CC /* FretboardView.m */,
+				2DFFEABF1A7B834100A833CC /* ViewController.m */,
+				2DFFEAC11A7B834100A833CC /* Main.storyboard */,
+				2DFFEAC41A7B834100A833CC /* Images.xcassets */,
+				2DFFEAC61A7B834100A833CC /* LaunchScreen.xib */,
+				2DFFEAB71A7B834100A833CC /* Supporting Files */,
+			);
+			path = FretboardDojo;
+			sourceTree = "<group>";
+		};
+		2DFFEAB71A7B834100A833CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFEAB81A7B834100A833CC /* Info.plist */,
+				2DFFEAB91A7B834100A833CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DFFEAD01A7B834100A833CC /* FretboardDojoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFEAD31A7B834100A833CC /* FretboardDojoTests.m */,
+				2DFFEAD11A7B834100A833CC /* Supporting Files */,
+			);
+			path = FretboardDojoTests;
+			sourceTree = "<group>";
+		};
+		2DFFEAD11A7B834100A833CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFEAD21A7B834100A833CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DFFEAB31A7B834100A833CC /* FretboardDojo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFFEAD71A7B834100A833CC /* Build configuration list for PBXNativeTarget "FretboardDojo" */;
+			buildPhases = (
+				2DFFEAB01A7B834100A833CC /* Sources */,
+				2DFFEAB11A7B834100A833CC /* Frameworks */,
+				2DFFEAB21A7B834100A833CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FretboardDojo;
+			productName = FretboardDojo;
+			productReference = 2DFFEAB41A7B834100A833CC /* FretboardDojo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DFFEACC1A7B834100A833CC /* FretboardDojoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFFEADA1A7B834100A833CC /* Build configuration list for PBXNativeTarget "FretboardDojoTests" */;
+			buildPhases = (
+				2DFFEAC91A7B834100A833CC /* Sources */,
+				2DFFEACA1A7B834100A833CC /* Frameworks */,
+				2DFFEACB1A7B834100A833CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFFEACF1A7B834100A833CC /* PBXTargetDependency */,
+			);
+			name = FretboardDojoTests;
+			productName = FretboardDojoTests;
+			productReference = 2DFFEACD1A7B834100A833CC /* FretboardDojoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DFFEAAC1A7B834100A833CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MM;
+				TargetAttributes = {
+					2DFFEAB31A7B834100A833CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2DFFEACC1A7B834100A833CC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2DFFEAB31A7B834100A833CC;
+					};
+				};
+			};
+			buildConfigurationList = 2DFFEAAF1A7B834100A833CC /* Build configuration list for PBXProject "FretboardDojo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DFFEAAB1A7B834100A833CC;
+			productRefGroup = 2DFFEAB51A7B834100A833CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DFFEAB31A7B834100A833CC /* FretboardDojo */,
+				2DFFEACC1A7B834100A833CC /* FretboardDojoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DFFEAB21A7B834100A833CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D89E0971A7ECE1600338A06 /* 3a.aiff in Resources */,
+				2D89E0961A7ECE1600338A06 /* 3b.aiff in Resources */,
+				2D89E0901A7ECE1600338A06 /* 4a.aiff in Resources */,
+				2D89E0841A7ECE1600338A06 /* 3f#.aiff in Resources */,
+				2D89E0861A7ECE1600338A06 /* 3c#.aiff in Resources */,
+				2D89E0981A7ECE1600338A06 /* 3g.aiff in Resources */,
+				2DFFEAC31A7B834100A833CC /* Main.storyboard in Resources */,
+				2D89E08F1A7ECE1600338A06 /* 4b.aiff in Resources */,
+				2D89E0921A7ECE1600338A06 /* 4f.aiff in Resources */,
+				2D89E09A1A7ECE1600338A06 /* 3e.aiff in Resources */,
+				2D89E0991A7ECE1600338A06 /* 3f.aiff in Resources */,
+				2D89E0771A7ECE1600338A06 /* 2e.aiff in Resources */,
+				2D89E0791A7ECE1600338A06 /* 5g#.aiff in Resources */,
+				2D89E08C1A7ECE1600338A06 /* 5e.aiff in Resources */,
+				2D89E0801A7ECE1600338A06 /* 4d#.aiff in Resources */,
+				2D89E08E1A7ECE1600338A06 /* 5c.aiff in Resources */,
+				2D89E0881A7ECE1600338A06 /* 5b.aiff in Resources */,
+				2D89E07B1A7ECE1600338A06 /* 5d#.aiff in Resources */,
+				2D89E0951A7ECE1600338A06 /* 4c.aiff in Resources */,
+				2D89E0891A7ECE1600338A06 /* 5a.aiff in Resources */,
+				2D89E08A1A7ECE1600338A06 /* 5g.aiff in Resources */,
+				2DFFEAC81A7B834100A833CC /* LaunchScreen.xib in Resources */,
+				2D89E08D1A7ECE1600338A06 /* 5d.aiff in Resources */,
+				2D89E07A1A7ECE1600338A06 /* 5f#.aiff in Resources */,
+				2D89E0871A7ECE1600338A06 /* 6c.aiff in Resources */,
+				2D89E0941A7ECE1600338A06 /* 4d.aiff in Resources */,
+				2D89E07E1A7ECE1600338A06 /* 4g#.aiff in Resources */,
+				2D89E0701A7ECE1600338A06 /* 2a#.aiff in Resources */,
+				2D89E0811A7ECE1600338A06 /* 4c#.aiff in Resources */,
+				2D89E07C1A7ECE1600338A06 /* 5c#.aiff in Resources */,
+				2D89E0831A7ECE1600338A06 /* 3g#.aiff in Resources */,
+				2D89E0911A7ECE1600338A06 /* 4g.aiff in Resources */,
+				2D89E0761A7ECE1600338A06 /* 2f.aiff in Resources */,
+				2D89E09C1A7ECE1600338A06 /* 3c.aiff in Resources */,
+				2D89E0751A7ECE1600338A06 /* 2g.aiff in Resources */,
+				2D89E07F1A7ECE1600338A06 /* 4f#.aiff in Resources */,
+				2D89E09B1A7ECE1600338A06 /* 3d.aiff in Resources */,
+				2D89E0721A7ECE1600338A06 /* 2f#.aiff in Resources */,
+				2D89E08B1A7ECE1600338A06 /* 5f.aiff in Resources */,
+				2D89E0821A7ECE1600338A06 /* 3a#.aiff in Resources */,
+				2D89E0731A7ECE1600338A06 /* 2b.aiff in Resources */,
+				2D89E0711A7ECE1600338A06 /* 2g#.aiff in Resources */,
+				2D89E0931A7ECE1600338A06 /* 4e.aiff in Resources */,
+				2D89E0781A7ECE1600338A06 /* 5a#.aiff in Resources */,
+				2D89E0741A7ECE1600338A06 /* 2a.aiff in Resources */,
+				2DFFEAC51A7B834100A833CC /* Images.xcassets in Resources */,
+				2D89E0851A7ECE1600338A06 /* 3d#.aiff in Resources */,
+				2D89E07D1A7ECE1600338A06 /* 4a#.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFEACB1A7B834100A833CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DFFEAB01A7B834100A833CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA273BA1A7CE5410042A340 /* Position.m in Sources */,
+				2DFFEAC01A7B834100A833CC /* ViewController.m in Sources */,
+				2DA2740A1A7D97330042A340 /* Guitar.m in Sources */,
+				2DA273B61A7C57DB0042A340 /* FretboardViewController.m in Sources */,
+				2DFFEABD1A7B834100A833CC /* AppDelegate.m in Sources */,
+				2DFFEADF1A7B8E3A00A833CC /* FretboardView.m in Sources */,
+				2DFFEABA1A7B834100A833CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFEAC91A7B834100A833CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFFEAD41A7B834100A833CC /* FretboardDojoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DFFEACF1A7B834100A833CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DFFEAB31A7B834100A833CC /* FretboardDojo */;
+			targetProxy = 2DFFEACE1A7B834100A833CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DFFEAC11A7B834100A833CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DFFEAC21A7B834100A833CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DFFEAC61A7B834100A833CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DFFEAC71A7B834100A833CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DFFEAD51A7B834100A833CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DFFEAD61A7B834100A833CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DFFEAD81A7B834100A833CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FretboardDojo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DFFEAD91A7B834100A833CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FretboardDojo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DFFEADB1A7B834100A833CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FretboardDojoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FretboardDojo.app/FretboardDojo";
+			};
+			name = Debug;
+		};
+		2DFFEADC1A7B834100A833CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FretboardDojoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FretboardDojo.app/FretboardDojo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DFFEAAF1A7B834100A833CC /* Build configuration list for PBXProject "FretboardDojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFFEAD51A7B834100A833CC /* Debug */,
+				2DFFEAD61A7B834100A833CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFFEAD71A7B834100A833CC /* Build configuration list for PBXNativeTarget "FretboardDojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFFEAD81A7B834100A833CC /* Debug */,
+				2DFFEAD91A7B834100A833CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFFEADA1A7B834100A833CC /* Build configuration list for PBXNativeTarget "FretboardDojoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFFEADB1A7B834100A833CC /* Debug */,
+				2DFFEADC1A7B834100A833CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DFFEAAC1A7B834100A833CC /* Project object */;
+}
