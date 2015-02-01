@@ -46,7 +46,7 @@
     NSDate* now = [ NSDate new ];
     self.answerTime = [ now timeIntervalSinceDate:self.startTime ];
     NSLog(@"guessed after %f seconds", self.answerTime );
-    self.correctLabel.textColor = [ UIColor greenColor];
+    self.correctLabel.textColor = [UIColor colorWithRed:0.000 green:0.535 blue:0.000 alpha:1.000];
     self.correctLabel.text = @"Good!";
     [self.correctLabel sizeToFit];
     [self.fretboardView clearMarkers];
@@ -67,6 +67,11 @@
     } else {
         [ self handleWrongAnswer:note ];
     }
+}
+- (IBAction)replayNote:(UIButton *)sender {
+    Position* pos = self.askedPosition;
+    NSString* note = self.fretboardView.notes[pos.string][pos.fret];
+    [ self.guitar play:note atPosition:pos];
 }
 
 - (void)viewDidLoad {

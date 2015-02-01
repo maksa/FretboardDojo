@@ -6,29 +6,33 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D590E8B3-BB0F-4FFD-A85D-B2EA438E4DD2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FretboardDojo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6FD27FFD8EA4068A2CD2B2F8A9809811CEA358FE</key>
+		<key>F3446E0AD1AD89399ED0B322C255E7603C9751F6</key>
 		<string>https://github.com/maksa/FretboardDojo.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FretboardDojo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6FD27FFD8EA4068A2CD2B2F8A9809811CEA358FE</key>
-		<string>FretboardDojo/</string>
+		<key>F3446E0AD1AD89399ED0B322C255E7603C9751F6</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/maksa/FretboardDojo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6FD27FFD8EA4068A2CD2B2F8A9809811CEA358FE</string>
+	<string>F3446E0AD1AD89399ED0B322C255E7603C9751F6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6FD27FFD8EA4068A2CD2B2F8A9809811CEA358FE</string>
+			<string>F3446E0AD1AD89399ED0B322C255E7603C9751F6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FretboardDojo</string>
 		</dict>

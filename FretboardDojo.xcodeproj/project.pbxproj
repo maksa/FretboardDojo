@@ -52,6 +52,9 @@
 		2D89E09A1A7ECE1600338A06 /* 3e.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06D1A7ECE1600338A06 /* 3e.aiff */; };
 		2D89E09B1A7ECE1600338A06 /* 3d.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06E1A7ECE1600338A06 /* 3d.aiff */; };
 		2D89E09C1A7ECE1600338A06 /* 3c.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E06F1A7ECE1600338A06 /* 3c.aiff */; };
+		2D89E09F1A7EE5BA00338A06 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E09D1A7EE5BA00338A06 /* Play.png */; };
+		2D89E0A01A7EE5BA00338A06 /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E09E1A7EE5BA00338A06 /* Play@2x.png */; };
+		2D89E0A21A7EE70A00338A06 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E0A11A7EE70A00338A06 /* notes.txt */; };
 		2DA273B61A7C57DB0042A340 /* FretboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA273B51A7C57DB0042A340 /* FretboardViewController.m */; };
 		2DA273BA1A7CE5410042A340 /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA273B91A7CE5410042A340 /* Position.m */; };
 		2DA2740A1A7D97330042A340 /* Guitar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA274091A7D97330042A340 /* Guitar.m */; };
@@ -122,6 +125,9 @@
 		2D89E06D1A7ECE1600338A06 /* 3e.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3e.aiff; sourceTree = "<group>"; };
 		2D89E06E1A7ECE1600338A06 /* 3d.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3d.aiff; sourceTree = "<group>"; };
 		2D89E06F1A7ECE1600338A06 /* 3c.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3c.aiff; sourceTree = "<group>"; };
+		2D89E09D1A7EE5BA00338A06 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		2D89E09E1A7EE5BA00338A06 /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		2D89E0A11A7EE70A00338A06 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 		2DA273B41A7C57DB0042A340 /* FretboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FretboardViewController.h; path = ../FretboardViewController.h; sourceTree = "<group>"; };
 		2DA273B51A7C57DB0042A340 /* FretboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FretboardViewController.m; path = ../FretboardViewController.m; sourceTree = "<group>"; };
 		2DA273B81A7CE5410042A340 /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Position.h; path = ../Position.h; sourceTree = "<group>"; };
@@ -220,6 +226,7 @@
 		2DFFEAAB1A7B834100A833CC = {
 			isa = PBXGroup;
 			children = (
+				2D89E0A11A7EE70A00338A06 /* notes.txt */,
 				2DA2740B1A7D9A040042A340 /* AudioToolbox.framework */,
 				2DFFEAB61A7B834100A833CC /* FretboardDojo */,
 				2DFFEAD01A7B834100A833CC /* FretboardDojoTests */,
@@ -240,6 +247,8 @@
 			isa = PBXGroup;
 			children = (
 				2DA274081A7D97330042A340 /* Guitar.h */,
+				2D89E09D1A7EE5BA00338A06 /* Play.png */,
+				2D89E09E1A7EE5BA00338A06 /* Play@2x.png */,
 				2DA274091A7D97330042A340 /* Guitar.m */,
 				2DA273BD1A7D96AB0042A340 /* Sounds */,
 				2DA273B81A7CE5410042A340 /* Position.h */,
@@ -366,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D89E0A21A7EE70A00338A06 /* notes.txt in Resources */,
 				2D89E0971A7ECE1600338A06 /* 3a.aiff in Resources */,
 				2D89E0961A7ECE1600338A06 /* 3b.aiff in Resources */,
 				2D89E0901A7ECE1600338A06 /* 4a.aiff in Resources */,
@@ -398,6 +408,7 @@
 				2D89E07C1A7ECE1600338A06 /* 5c#.aiff in Resources */,
 				2D89E0831A7ECE1600338A06 /* 3g#.aiff in Resources */,
 				2D89E0911A7ECE1600338A06 /* 4g.aiff in Resources */,
+				2D89E09F1A7EE5BA00338A06 /* Play.png in Resources */,
 				2D89E0761A7ECE1600338A06 /* 2f.aiff in Resources */,
 				2D89E09C1A7ECE1600338A06 /* 3c.aiff in Resources */,
 				2D89E0751A7ECE1600338A06 /* 2g.aiff in Resources */,
@@ -405,6 +416,7 @@
 				2D89E09B1A7ECE1600338A06 /* 3d.aiff in Resources */,
 				2D89E0721A7ECE1600338A06 /* 2f#.aiff in Resources */,
 				2D89E08B1A7ECE1600338A06 /* 5f.aiff in Resources */,
+				2D89E0A01A7EE5BA00338A06 /* Play@2x.png in Resources */,
 				2D89E0821A7ECE1600338A06 /* 3a#.aiff in Resources */,
 				2D89E0731A7ECE1600338A06 /* 2b.aiff in Resources */,
 				2D89E0711A7ECE1600338A06 /* 2g#.aiff in Resources */,
