@@ -15,7 +15,31 @@
 
 @implementation FretboardViewController
 
--(void)proposeRandomPosition {
+-(void)proposePositionAtRandomIndexPath {
+    NSUInteger randomIndex = arc4random_uniform( self.selectedSections.count );
+    NSIndexPath* selectedSection = self.selectedSections[randomIndex];
+    NSInteger stringIndexStart;
+    if( selectedSection.section == 1 ) {
+        stringIndexStart = 0;
+    } else {
+        stringIndexStart = 3;
+    }
+    
+    NSUInteger index = arc4random_uniform( 3 );
+    NSUInteger randomStringIndex = stringIndexStart + index;
+    NSUInteger fret = selectedSection.row;
+
+    if( fret == 0 )
+        fret = arc4random_uniform( 2 );
+    
+    Position* pos = [[ Position alloc ] initWithString:randomStringIndex fret:fret ];
+    NSString* proposedNote = self.fretboardView.notes[randomStringIndex][fret];
+    [ self.guitar play:proposedNote atPosition:pos ];
+    [ self proposePosition:pos ];
+
+}
+
+-(void)proposeRandomPositionHide {
     self.startTime = [ NSDate new ];
     NSUInteger string = arc4random_uniform( 6 );
     NSUInteger fret = arc4random_uniform( 23 );
@@ -28,9 +52,14 @@
 -(void)proposePosition:(Position*)position {
     self.askedPosition = position;
     [self.fretboardView showMarker:position.string fret:position.fret];
-    NSString* proposedNote = self.fretboardView.notes[position.string][position.fret];
-    NSString* labelText = [ NSString stringWithFormat:@"%@ (%lu,%lu)", proposedNote, (unsigned long)position.string, (unsigned long)position.fret ];
-    self.proposedNoteLabel.text = labelText;
+    if( self.cheat ) {
+        NSString* proposedNote = self.fretboardView.notes[position.string][position.fret];
+        NSString* labelText = [ NSString stringWithFormat:@"%@ (%lu,%lu)", proposedNote, (unsigned long)position.string, (unsigned long)position.fret ];
+        [self.proposedNoteLabel setTitle:labelText forState:UIControlStateNormal];
+    } else {
+        [self.proposedNoteLabel setTitle:@"" forState:UIControlStateNormal];
+    }
+
 }
 
 -(void)markAllNotePositions:(NSString*)note {
@@ -50,8 +79,19 @@
     self.correctLabel.text = @"Good!";
     [self.correctLabel sizeToFit];
     [self.fretboardView clearMarkers];
-    [ self proposeRandomPosition ];
+    [ self proposePositionAtRandomIndexPath ];
     
+}
+- (IBAction)cheatLabelTapped:(id)sender {
+    self.cheat = !self.cheat;
+    if( self.cheat ) {
+        NSString* note = self.fretboardView.notes[self.askedPosition.string][self.askedPosition.fret];
+        Position* position = self.askedPosition;
+        NSString* labelText = [ NSString stringWithFormat:@"%@ (%lu,%lu)", note, (unsigned long)position.string + 1, (unsigned long)position.fret];
+        [self.proposedNoteLabel setTitle:labelText forState:UIControlStateNormal];
+    } else {
+        [self.proposedNoteLabel setTitle:@"" forState:UIControlStateNormal];
+    }
 }
 
 -(void)handleWrongAnswer:(NSString*)note {
@@ -82,7 +122,7 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated {
-    [self proposeRandomPosition];
+    [ self proposePositionAtRandomIndexPath ];
 }
 
 - (void)didReceiveMemoryWarning {

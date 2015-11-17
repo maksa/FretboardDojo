@@ -14,5 +14,4 @@
 -(void)clearMarkers;
 @property (nonatomic) NSArray* notes;
 @property (nonatomic) NSMutableArray* markers;
-
 @end

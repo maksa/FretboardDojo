@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "FretboardView.h"
 
 @interface FretboardDojoTests : XCTestCase
 
@@ -26,15 +27,8 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+    FretboardView* v = [[ FretboardView alloc ] init];
+    NSLog( @"%@", v.notes );
 }
 
 @end

@@ -17,9 +17,11 @@
 @property NSTimeInterval answerTime;
 -(void)notePressed:(NSString*)note;
 @property (nonatomic) FretboardView* fretboardView;
--(void)proposeRandomPosition;
+-(void)proposeRandomPositionHide;
+-(void)proposePositionAtRandomIndexPath;
 @property (nonatomic) Position* askedPosition;
 @property (weak, nonatomic) IBOutlet UILabel *correctLabel;
-@property (weak, nonatomic) IBOutlet UILabel *proposedNoteLabel;
-
+@property (weak, nonatomic) IBOutlet UIButton *proposedNoteLabel;
+@property (strong, nonatomic) NSArray<NSIndexPath*>* selectedSections;
+@property BOOL cheat;
 @end

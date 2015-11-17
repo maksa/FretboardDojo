@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "FretboardViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 @property (strong, nonatomic) IBOutletCollection(NSLayoutConstraint) NSArray *buttonDistances;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *sharpDistances;
 @property (strong, nonatomic) IBOutletCollection(NSLayoutConstraint) NSArray *firstSharpSpacings;
@@ -18,6 +18,7 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *halfNotes;
 @property (nonatomic) FretboardViewController* fretboardViewController;
 @property (weak, nonatomic) IBOutlet UILabel *correctLabel;
-
+@property (weak, nonatomic) IBOutlet UICollectionView *fretSelectCollectionView;
+@property (strong, nonatomic) NSMutableSet<NSIndexPath*>* fretboardSections;
 @end
 

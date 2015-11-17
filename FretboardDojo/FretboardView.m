@@ -8,11 +8,11 @@
 
 #import "FretboardView.h"
 #import "Position.h"
+#import "FretMath.h"
 
 #define MARGIN 20
 #define STRING_GAP 16
 #define DOT_RADIUS 8
-#define NUMBER_OF_FRETS 23
 #define NECK_LENGTH 18.34
 #define TOP_MARGIN (self.frame.size.height - STRING_GAP * 7)/2
 #define F2W_SCALE (self.frame.size.width - MARGIN * 2) / NECK_LENGTH
@@ -72,7 +72,7 @@
 }
 
 -(void)showNoteNameMarker:(NSUInteger)n_string fret:(NSUInteger)fret {
-    CGFloat* fretConstants = [ self fretConstants ];
+    CGFloat* fretConstants = [ FretMath fretConstants ];
     CGFloat Xfret0 = fretConstants[fret-1] * F2W_SCALE + MARGIN;
     CGFloat Xfret1 = fretConstants[fret] * F2W_SCALE + MARGIN;
     CGFloat xPos = Xfret0 + (Xfret1 - Xfret0)/2 - MARKER_SIZE/4;
@@ -104,7 +104,7 @@
 
     const NSUInteger MARKER_RADIUS = STRING_GAP/3*2;
     
-    CGFloat* fretConstants = [ self fretConstants ];
+    CGFloat* fretConstants = [ FretMath fretConstants ];
     CGFloat Xfret0 = fretConstants[fret-1] * F2W_SCALE + MARGIN;
     CGFloat Xfret1 = fretConstants[fret] * F2W_SCALE + MARGIN;
     CGFloat xPos = Xfret0 + (Xfret1 - Xfret0)/2 - MARKER_RADIUS/2;
@@ -127,36 +127,6 @@
 
 }
 
--(CGFloat*)fretConstants {
-    static CGFloat fretConstants[] = {
-        0,
-        1.43,
-        2.78,
-        4.06,
-        5.26,
-        6.40,
-        7.47,
-        8.48,
-        9.44,
-        10.34,
-        11.19,
-        11.99,
-        12.75,
-        13.47,
-        14.14,
-        14.78,
-        15.38,
-        15.95,
-        16.48,
-        16.99,
-        17.47,
-        17.92,
-        18.34,
-    };
-    NSAssert( sizeof(fretConstants)/sizeof(CGFloat) == NUMBER_OF_FRETS, @"must have enough scale factors");
-    
-    return fretConstants;
-}
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -170,7 +140,7 @@
     // 24.75 scale
     CGFloat f2wScale = (self.frame.size.width - MARGIN * 2) / NECK_LENGTH;
     
-    CGFloat* fretConstants = [ self fretConstants ];
+    CGFloat* fretConstants = [ FretMath fretConstants ];
     
     for( int i = 1; i < 7; ++i ) {
         CGContextMoveToPoint(context, MARGIN, TOP_MARGIN + i * STRING_GAP );

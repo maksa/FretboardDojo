@@ -59,6 +59,9 @@
 		2DA273BA1A7CE5410042A340 /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA273B91A7CE5410042A340 /* Position.m */; };
 		2DA2740A1A7D97330042A340 /* Guitar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA274091A7D97330042A340 /* Guitar.m */; };
 		2DA2740C1A7D9A040042A340 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA2740B1A7D9A040042A340 /* AudioToolbox.framework */; };
+		2DE76A471BF9CE1F005C790A /* FretMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76A461BF9CE1F005C790A /* FretMath.m */; };
+		2DE76A481BF9CE1F005C790A /* FretMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76A461BF9CE1F005C790A /* FretMath.m */; };
+		2DE76A601BFB1F58005C790A /* FretMarkerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76A5F1BFB1F58005C790A /* FretMarkerCell.m */; };
 		2DFFEABA1A7B834100A833CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFEAB91A7B834100A833CC /* main.m */; };
 		2DFFEABD1A7B834100A833CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFEABC1A7B834100A833CC /* AppDelegate.m */; };
 		2DFFEAC01A7B834100A833CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFEABF1A7B834100A833CC /* ViewController.m */; };
@@ -135,6 +138,10 @@
 		2DA274081A7D97330042A340 /* Guitar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Guitar.h; path = ../Guitar.h; sourceTree = "<group>"; };
 		2DA274091A7D97330042A340 /* Guitar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Guitar.m; path = ../Guitar.m; sourceTree = "<group>"; };
 		2DA2740B1A7D9A040042A340 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2DE76A451BF9CE1F005C790A /* FretMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretMath.h; sourceTree = "<group>"; };
+		2DE76A461BF9CE1F005C790A /* FretMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretMath.m; sourceTree = "<group>"; };
+		2DE76A5E1BFB1F58005C790A /* FretMarkerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretMarkerCell.h; sourceTree = "<group>"; };
+		2DE76A5F1BFB1F58005C790A /* FretMarkerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretMarkerCell.m; sourceTree = "<group>"; };
 		2DFFEAB41A7B834100A833CC /* FretboardDojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretboardDojo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFFEAB81A7B834100A833CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DFFEAB91A7B834100A833CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -246,6 +253,8 @@
 		2DFFEAB61A7B834100A833CC /* FretboardDojo */ = {
 			isa = PBXGroup;
 			children = (
+				2DE76A451BF9CE1F005C790A /* FretMath.h */,
+				2DE76A461BF9CE1F005C790A /* FretMath.m */,
 				2DA274081A7D97330042A340 /* Guitar.h */,
 				2D89E09D1A7EE5BA00338A06 /* Play.png */,
 				2D89E09E1A7EE5BA00338A06 /* Play@2x.png */,
@@ -262,6 +271,8 @@
 				2DFFEADE1A7B8E3900A833CC /* FretboardView.m */,
 				2DFFEABF1A7B834100A833CC /* ViewController.m */,
 				2DFFEAC11A7B834100A833CC /* Main.storyboard */,
+				2DE76A5E1BFB1F58005C790A /* FretMarkerCell.h */,
+				2DE76A5F1BFB1F58005C790A /* FretMarkerCell.m */,
 				2DFFEAC41A7B834100A833CC /* Images.xcassets */,
 				2DFFEAC61A7B834100A833CC /* LaunchScreen.xib */,
 				2DFFEAB71A7B834100A833CC /* Supporting Files */,
@@ -339,7 +350,7 @@
 		2DFFEAAC1A7B834100A833CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = MM;
 				TargetAttributes = {
 					2DFFEAB31A7B834100A833CC = {
@@ -443,8 +454,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE76A471BF9CE1F005C790A /* FretMath.m in Sources */,
 				2DA273BA1A7CE5410042A340 /* Position.m in Sources */,
 				2DFFEAC01A7B834100A833CC /* ViewController.m in Sources */,
+				2DE76A601BFB1F58005C790A /* FretMarkerCell.m in Sources */,
 				2DA2740A1A7D97330042A340 /* Guitar.m in Sources */,
 				2DA273B61A7C57DB0042A340 /* FretboardViewController.m in Sources */,
 				2DFFEABD1A7B834100A833CC /* AppDelegate.m in Sources */,
@@ -457,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE76A481BF9CE1F005C790A /* FretMath.m in Sources */,
 				2DFFEAD41A7B834100A833CC /* FretboardDojoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +525,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -572,8 +587,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FretboardDojo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.thecodething.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -584,8 +600,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FretboardDojo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.thecodething.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -595,16 +612,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FretboardDojoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.thecodething.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FretboardDojo.app/FretboardDojo";
 			};
@@ -614,12 +629,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = FretboardDojoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.thecodething.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FretboardDojo.app/FretboardDojo";
 			};

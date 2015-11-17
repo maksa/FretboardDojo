@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FretMarkerCell.h"
 
 @interface ViewController ()
 
@@ -31,6 +32,9 @@
         cons.constant = spacing/2 - halfNoteBtn.frame.size.width/2;
     }];
     
+    self.fretboardSections = [[ NSMutableSet alloc ] init];
+    self.fretSelectCollectionView.allowsMultipleSelection = YES;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -51,4 +55,41 @@
     return self.childViewControllers[0];
 }
 
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 22;
+}
+
+-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+    return 2;
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    CGFloat w = collectionView.bounds.size.width / 22;
+    CGFloat h = 35;
+    return CGSizeMake( w, h );
+    
+}
+
+
+-(UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    FretMarkerCell* cell = [ collectionView dequeueReusableCellWithReuseIdentifier:@"fretcell" forIndexPath:indexPath ];
+    
+    UIView* selectedView = [[ UIView alloc ] initWithFrame:CGRectMake(0, 0, cell.bounds.size.width, cell.bounds.size.height )];
+
+    selectedView.backgroundColor = [ UIColor blueColor ];
+    cell.selectedBackgroundView = selectedView;
+    return cell;
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"klikete klik: %@", indexPath);
+    [ self.fretboardSections addObject:indexPath ];
+    self.fretboardViewController.selectedSections = self.fretboardSections.allObjects;
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"deselektovao: %@", indexPath );
+    [ self.fretboardSections removeObject:indexPath ];
+    self.fretboardViewController.selectedSections = self.fretboardSections.allObjects;
+}
 @end
