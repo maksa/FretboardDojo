@@ -62,7 +62,7 @@
 
     NSLog(@"notes: %lu", (unsigned long)notes.count );
     NSArray* a = notes[0];
-    NSLog(@"notes: %lu", a.count );
+    NSLog(@"notes: %lu", (unsigned long)a.count );
     return notes;
 }
 
@@ -100,6 +100,27 @@
     
 }
 
+-(void)showNoteMarker:(NSUInteger)n_string fret:(NSUInteger)fret {
+    const NSUInteger MARKER_RADIUS = STRING_GAP/3*2;
+    
+    CGFloat* fretConstants = [ FretMath fretConstants ];
+    CGFloat Xfret0 = fretConstants[fret-1] * F2W_SCALE + MARGIN;
+    CGFloat Xfret1 = fretConstants[fret] * F2W_SCALE + MARGIN;
+    CGFloat xPos = Xfret0 + (Xfret1 - Xfret0)/2 - MARKER_RADIUS/2;
+    CGFloat yPos = (6 - n_string) * STRING_GAP + TOP_MARGIN - MARKER_RADIUS/2;
+    
+    if( fret == 0 )
+        xPos = xPos - MARKER_RADIUS/2;
+
+    CATextLayer* layer = [ CATextLayer layer ];
+    layer.cornerRadius = MARKER_RADIUS/2;
+    layer.backgroundColor = [ UIColor orangeColor ].CGColor;
+    layer.frame = CGRectMake(xPos, yPos, MARKER_RADIUS, MARKER_RADIUS);
+    [self.layer addSublayer:layer];
+    [self.markers addObject:layer];
+
+}
+
 -(void)showMarker:(NSUInteger)n_string fret:(NSUInteger)fret {
 
     const NSUInteger MARKER_RADIUS = STRING_GAP/3*2;
@@ -118,12 +139,13 @@
     //    layer.backgroundColor = [ UIColor redColor ].CGColor;
     //    [ self.layer addSublayer:layer ];
     
-    CALayer* layer = [ CATextLayer layer ];
+    CATextLayer* layer = [ CATextLayer layer ];
     layer.cornerRadius = MARKER_RADIUS/2;
     layer.backgroundColor = [ UIColor orangeColor ].CGColor;
-    layer.frame = CGRectMake(xPos, yPos, MARKER_RADIUS, MARKER_RADIUS);
-    [self.layer addSublayer:layer];
-    [self.markers addObject:layer];
+    layer.foregroundColor = [ UIColor redColor ].CGColor;
+    layer.frame = CGRectMake( xPos, yPos, MARKER_RADIUS, MARKER_RADIUS );
+    [ self.layer addSublayer:layer ];
+    [ self.markers addObject:layer ];
 
 }
 

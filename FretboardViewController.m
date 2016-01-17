@@ -16,7 +16,17 @@
 @implementation FretboardViewController
 
 -(void)proposePositionAtRandomIndexPath {
-    NSUInteger randomIndex = arc4random_uniform( self.selectedSections.count );
+    
+    if( self.selectedSections.count == 0 ) {
+        NSUInteger randString = arc4random_uniform(5);
+        Position* pos = [[ Position alloc ] initWithString:randString fret:0 ];
+        NSString* proposedNote = self.fretboardView.notes[randString][0];
+        [ self.guitar play:proposedNote atPosition:pos ];
+        [ self proposePosition:pos ];
+        return;
+    }
+    
+    NSUInteger randomIndex = arc4random_uniform( (int)self.selectedSections.count );
     NSIndexPath* selectedSection = self.selectedSections[randomIndex];
     NSInteger stringIndexStart;
     if( selectedSection.section == 1 ) {
@@ -25,12 +35,12 @@
         stringIndexStart = 3;
     }
     
-    NSUInteger index = arc4random_uniform( 3 );
-    NSUInteger randomStringIndex = stringIndexStart + index;
     NSUInteger fret = selectedSection.row;
-
     if( fret == 0 )
         fret = arc4random_uniform( 2 );
+
+    NSUInteger index = arc4random_uniform( 3 );
+    NSUInteger randomStringIndex = stringIndexStart + index;
     
     Position* pos = [[ Position alloc ] initWithString:randomStringIndex fret:fret ];
     NSString* proposedNote = self.fretboardView.notes[randomStringIndex][fret];
@@ -79,9 +89,18 @@
     self.correctLabel.text = @"Good!";
     [self.correctLabel sizeToFit];
     [self.fretboardView clearMarkers];
+
     [ self proposePositionAtRandomIndexPath ];
     
 }
+
+-(void)handleWrongAnswer:(NSString*)note {
+    self.correctLabel.textColor = [ UIColor redColor];
+    self.correctLabel.text = @"Wrong...";
+    [self.correctLabel sizeToFit];
+}
+
+
 - (IBAction)cheatLabelTapped:(id)sender {
     self.cheat = !self.cheat;
     if( self.cheat ) {
@@ -94,11 +113,6 @@
     }
 }
 
--(void)handleWrongAnswer:(NSString*)note {
-    self.correctLabel.textColor = [ UIColor redColor];
-    self.correctLabel.text = @"Wrong...";
-    [self.correctLabel sizeToFit];
-}
 
 -(void)notePressed:(NSString*)note {
     NSString* noteAtAskedPosition = self.fretboardView.notes[self.askedPosition.string][self.askedPosition.fret];

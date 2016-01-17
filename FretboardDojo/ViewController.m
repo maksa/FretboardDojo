@@ -33,6 +33,7 @@
     }];
     
     self.fretboardSections = [[ NSMutableSet alloc ] init];
+    self.fretboardViewController.selectedSections = self.fretboardSections.allObjects;
     self.fretSelectCollectionView.allowsMultipleSelection = YES;
     
 }
@@ -91,5 +92,8 @@
     NSLog(@"deselektovao: %@", indexPath );
     [ self.fretboardSections removeObject:indexPath ];
     self.fretboardViewController.selectedSections = self.fretboardSections.allObjects;
+}
+-(IBAction)onDoneWithSettings:(UIStoryboardSegue*)exitSegue {
+    
 }
 @end
